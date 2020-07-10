@@ -27,3 +27,9 @@ Route::get('customers/{customer}', 'CustomerController@show');
 Route::post('customers', 'CustomerController@store');
 Route::put('customers/{customer}', 'CustomerController@update');
 Route::delete('customers/{customer}', 'CustomerController@delete');
+
+Route::get('users',  'UserController@index');
+Route::get('users/{user}', 'UserController@show');
+Route::post('users', 'UserController@store');
+Route::put('users/{user}', 'UserController@update');
+Route::delete('users/{user}', 'UserController@delete');
